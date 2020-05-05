@@ -9,7 +9,8 @@
         "README.md",
         "pins.ts",
         "_locales/de/MakerBit-Pins-calliope-strings.json",
-        "namespace.ts"
+        "namespace.ts",
+        "forloop.ts"
     ],
     "testFiles": [
         "test.ts"
