@@ -2,7 +2,7 @@
 namespace loops {
   /**
    * Run part of the program the number of times you say using an index variable.
-   * The 'index' takse on the values from start to the end number, counting by 1, and run the specified blocks.
+   * The 'index' takes on the values from start to the end number, counting by 1, and run the specified blocks.
    * @param start start value, eg: 0
    * @param end end value, eg: 5
    */
