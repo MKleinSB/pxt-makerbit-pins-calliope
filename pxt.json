@@ -1,13 +1,14 @@
 {
     "name": "pxt-makerbit-pins-calliope",
-    "version": "0.0.1",
-    "description": "",
+    "version": "0.0.2",
+    "description": "Pins for Calliope mini and MakerBit",
     "dependencies": {
         "core": "*"
     },
     "files": [
         "README.md",
         "pins.ts",
+        "_locales/de/MakerBit-Pins-calliope-strings.json",
         "namespace.ts"
     ],
     "testFiles": [
