@@ -5,7 +5,7 @@
   "makerbit.setAnalogPin|block": "setze analogen Pin %pin | auf %level",
   "makerbit.setDigitalPin|block": "schalte digitalen Pin %pin | auf %level=makerbit_helper_level",
   "makerbit.setLedPins|block": "schalte alle LED Pins auf %level=makerbit_helper_level",
-//  "loops.forLoop|block": "für $index | von $start | bis $end",
+  "loops.forLoop|block": "für $index | von $start | bis $end",
   "makerbit|block": "MakerBit",
   "{id:category}Makerbit": "Makerbit",
   "{id:subcategory}Pins": "Pins"
