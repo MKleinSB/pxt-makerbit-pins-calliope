@@ -1,6 +1,6 @@
 {
     "name": "pxt-makerbit-pins-calliope",
-    "version": "0.1.7",
+    "version": "0.1.8",
     "description": "Pins for Calliope mini and MakerBit",
     "dependencies": {
         "core": "*"
