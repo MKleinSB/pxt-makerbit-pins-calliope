@@ -40,6 +40,7 @@ namespace makerbit {
     //% blockId="makerbit_helper_set_led_pins"
     //% block="set all LED pins to %level=makerbit_helper_level"
     //% weight=90
+    //% subcategory="Pins"
     export function setLedPins(level: number): void {
         for (let i = 5; i <= 16; i++) {
             setDigitalPin(PinListe[i], level);
@@ -55,7 +56,7 @@ namespace makerbit {
     //% blockId="makerbit_helper_set_digital_pin"
     //% block="set digital pin %pin | to %level=makerbit_helper_level"
     //% name.min=0 name.max=17
-    //% weight=89
+    //% weight=89 subcategory="Pins"
     export function setDigitalPin(name: number, level: number): void {
         if (name < 0 || name > 17 || name == 4) {
             return;
@@ -75,7 +76,7 @@ namespace makerbit {
     //% block="set analog pin %pin | to %level"
     //% name.min=0 name.max=3
     //% level.min=0 level.max=1023
-    //% weight=88
+    //% weight=88 subcategory="Pins"
     export function setAnalogPin(name: number, level: number): void {
         if (name < 0 || name > 17 || name == 4) {
             return;
@@ -89,7 +90,7 @@ namespace makerbit {
      */
     //% blockId=makerbit_helper_level
     //% block="%level"
-    //% blockHidden=true
+    //% blockHidden=true subcategory="Pins"
     export function level(level: PinLevel): number {
         return level;
     }
