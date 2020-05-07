@@ -1,4 +1,4 @@
-// MakerBit core blocks for Calliope Mini
+// MakerBit pinmapping and pin blocks for Calliope Mini
 
 const enum MakerBitPin {
     A0 = 9,   //C16     A = Analog Pins
