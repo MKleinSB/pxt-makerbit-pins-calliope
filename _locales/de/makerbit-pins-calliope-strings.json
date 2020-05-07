@@ -1,4 +1,5 @@
 {
+  "loops.forLoop|block": "für $index | von $start | bis $end",
   "PinLevel.High|block": "hoch",
   "PinLevel.Low|block": "niedrig",
   "makerbit.level|block": "%level",
