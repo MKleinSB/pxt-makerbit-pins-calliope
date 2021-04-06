@@ -11,6 +11,7 @@ namespace loops {
   //% draggableParameters
   //% block="for $index | from $start | to $end"
   //% block.loc.de="für $index | von $start | bis $end"
+  //% jsdoc.loc.de="Führt Code so oft aus wie in der Indexvariablen angegeben. Dabei verwendet Index die Werte von start bis end"
   //% weight=65
   export function forLoop(
     start: number,
