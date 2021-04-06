@@ -1,6 +1,6 @@
 {
     "name": "makerbit-pins-calliope",
-    "version": "0.1.14",
+    "version": "0.1.15",
     "description": "Pins for Calliope mini and MakerBit",
     "license": "MIT",
     "dependencies": {
